@@ -20,6 +20,9 @@ public class MathUtil {
         //hàm đó viêt khi chạy thực tế là mấy - actual, giả sử 120
         //ì expected == actual, hàm chạy nhon trong tình huống này
         System.out.println("6! = 720; actual: " + MathUtilClass.getFactorial(6));
+        
+        System.out.println("1! = 1; actual: " + MathUtilClass.getFactorial(1));
+        System.out.println("3! = 6; actual: " + MathUtilClass.getFactorial(3));
     }
     
 }
